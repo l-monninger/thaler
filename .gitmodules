@@ -1,0 +1,3 @@
+[submodule "thaler-py"]
+	path = thaler-py
+	url = https://github.com/l-monninger/thaler-py
