@@ -1,3 +1,9 @@
 [submodule "thaler-py"]
 	path = thaler-py
 	url = https://github.com/l-monninger/thaler-py
+[submodule "thaler-c"]
+	path = thaler-c
+	url = https://github.com/l-monninger/thaler-c
+[submodule "thaler-rs"]
+	path = thaler-rs
+	url = https://github.com/l-monninger/thaler-rs
