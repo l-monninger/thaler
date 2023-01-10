@@ -19,4 +19,6 @@ The below maps exercises to their appropriate modules by chapter. Modules are or
 Let $A, B, C$ be $n \times n$ matrices over the field $\mathbb{F}$. In Section 2.2, we presented a randomized algorithm for checking that $C = A \cdot B$. The algorithm picked a random field element $r$ let $x=(r, r^2, ..., r^n)$,
 and output EQUAL if $Cx = A \cdot (Bx)$, and output NOT-EQUAL otherwise. Suppose instead that each entry of the vectore $x$ is chose independently and uniformly at random from $\mathbb{F}$. Shot that:
 - If $C_{ij} = (AB)_{ij}$ for all $i = 1,...,n, j = 1,...,n$, then the algorithm outputs EQUAL for every possible choice of $x$.
-- If there is even one $(i,j) \in [n] \times [n]$ such that $C_ij \neq (AB)_{ij}$, then the algorithm outpus NOT-EQUAL with probability at least $1 - 1/|\mathbb{F}|$
+- If there is even one $(i,j) \in [n] \times [n]$ such that $C_ij \neq (AB)_{ij}$, then the algorithm outpus NOT-EQUAL with probability at least $1 - 1/|\mathbb{F}|$.
+
+*See implementation at `/exercises/__nocode/freivalds/Prove.*`*
