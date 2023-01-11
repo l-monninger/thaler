@@ -11,7 +11,29 @@ The below maps exercises to their appropriate modules by chapter. Modules are or
 #### From the Text
 [none]
 #### Inspired by the Text
-[none]
+##### phi Function
+
+##### Freivald's Algorithm
+Take as input two $n \times n$ matrices $A$ and $B$ over $\mathbb{F}$ where $p > n^2$ is a prime number. Choose a random $r \in \mathbb{F}_p$, and let $x = (1,r,r^2,...,r^n-1)$. Then compute $y=Cx$ and $z=A \cdot Bx$, outputing TRUE if $y=z$ and FALSE otherwise. [Fre77]
+
+Implement Freivald's algorithm for small inputs $n^2 < p < 16^2 + 1 = 257$. (257 is prime.) Call this function `freivald_sm` cased according to your chosen language.
+
+Implement Freivald's algorithm for an arbitrarily large set of inputs. Call this function `freivald`. 
+
+#### Freivald's Algorithm over an Arbitrary Field
+Realize implementations of the abstraction `FieldElement`:
+```
+FieldElement {
+    add(FieldElement right)->FieldElement;
+    subtract(FieldElement right)->FieldElement;
+    multiply(FieldElement right)->FieldElement;
+    divide(FieldElement right)->FieldElement;
+    equals(FieldElement right)->Boolean;
+}
+```
+
+Implement `arb_freivald` which may take as input matrices A and B of `FieldElements` and runs `Freivald's` algorithm. Should the soundness and completeness properties of this algorithm be the same as for $\mathbb{F}$? Why or why not?
+
 
 ### 3. Definitions and Technical Preliminaries
 #### From the Text
