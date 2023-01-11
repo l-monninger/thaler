@@ -32,7 +32,7 @@ FieldElement {
 }
 ```
 
-Implement `arb_freivald` which may take as input matrices A and B of `FieldElements` and runs `Freivald's` algorithm. Should the soundness and completeness properties of this algorithm be the same as for $\mathbb{F}$? Why or why not?
+Implement `arb_freivald` which may take as input matrices A and B of `FieldElements` and runs `Freivald's` algorithm. Should the soundness and completeness properties of this algorithm be the same as for $\mathbb{F_p}$? Why or why not?
 
 
 ### 3. Definitions and Technical Preliminaries
