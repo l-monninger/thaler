@@ -3,3 +3,4 @@
 SCRIPT=$(realpath "$0")
 SCRIPTDIR=$(dirname "$SCRIPT")
 git submodule foreach "$SCRIPT $* && $*"
+$*
