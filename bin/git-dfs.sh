@@ -5,3 +5,4 @@ SCRIPTDIR=$(dirname "$SCRIPT")
 echo $1
 git submodule foreach "$SCRIPT \"$1\""
 eval $1
+echo git remote -v
