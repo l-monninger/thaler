@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "error.h": "c",
+        "tha_error.h": "c",
+        "truth.h": "c",
+        "set.h": "c",
+        "typeinfo": "c"
+    }
+}
